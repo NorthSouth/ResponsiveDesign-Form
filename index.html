@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="assignment">
+    <meta name="author" content="Neil Schnepf">
+   <!-- <link rel="icon" href="../../../../favicon.ico">-->
+
+    <title>Responsive Design Inquiry</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+  
+</head>
+
+<body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+    <div class="container">
+
+  <!--      Information about Responsive Design-->
+        
+        <main>
+
+            <div class="jumbotron">
+                <h1 class="display-3">Responsive Design</h1>
+                <p class="lead">The early, Web 1.0 days mostly served the dictates of form following function, with nearly-static content and demands more easily served by a reliance on older, physical models of design, like the printed page. After 2004, a quickly-maturing web environment saw the development of a growing sense of community and connectivity with the appearance of social networking and media sites, and the desire to create shared virtual spaces of user-generated and user-curated content. The demands for an evolving content delivery system and the recognition of the web as a multi-faceted platform for new media, pushed against the constraints of a rigid design, and required a more dynamic approach to presentation.</p>
+                <p class="lead">These shifts only accelerated after 2010, with the arrival of the iPad and the rapid proliferation of internet-capable devices. Whereas before there was only a narrow array of screen sizes, now there was a multitude. Consumers had come to expect content to be portable and easily accessible, and businesses sought to become even more integrated with everyday experiences. Responsive web design, where content can be delivered and organized in a fluid, adaptable manner based on the screen size and viewing environment, evolved to address these rapid changes.</p>
+                <p class="lead">Embracing a new set of design principles can feel like a daunting task, but realizing that your site can benefit from the versatility of a responsive layout is a crucial first step. Here at Fugu Media, we'll lead through the process and provide you with a web presence that feels fresh and ready to take on the next 10 years. </p>
+                <p class="lead">First, we just need to get to know you and your business a little better.</p>
+                <p class="lead">Please fill out the form below and we'll take it from there!</p>
+                <!--   <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>-->
+            </div>
+            <h3> A little bit about you...
+            </h3>
+            <br>
+            <!--          form-->
+
+            <form>
+                
+<!--                NAME-->
+                
+                <div class="form-group row">
+                    <label for="inputFirstName" class="col-sm-2 col-form-label">First Name</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputFirstName" name="FirstName" placeholder="First Name" required>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label  class="col-sm-2 col-form-label">Last Name</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputLastName" name="LastName" placeholder="Last Name" required>
+                    </div>
+                </div>
+                
+<!--                SITE-->
+                
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Your website URL</label>
+                    <div class="col-sm-10">
+                        <input type="url" class="form-control" id="inputWebsiteURL" name="siteURL" placeholder="http://" >
+                    </div>
+                </div>
+              
+<!--                PHONE #-->
+                
+                <div class="form-group row">
+                    <label  class="col-sm-2 col-form-label"> Phone Number</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputPhoneNumber" placeholder="(206) 555-5555" name="phone_number" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" >
+                    </div>
+                </div>
+                
+              
+<!--                EMAIL -->
+                
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="name@company.com" name="email" required>
+                    </div>
+                </div>
+                
+<!--                EMPLOYEES-->
+                
+                <div class="form-group">
+                    <label for="employeesSelect1">Number of Employees</label>
+                    <select class="form-control" id="employeesSelect1">
+                        <option>1-10</option>
+                        <option>11-50</option>
+                        <option>51-100</option>                        
+                        <option>101-500</option>                      
+                        <option>&gt;500</option>
+                    </select>
+                </div>    
+                
+<!--                DESIGNER?-->
+                
+                <fieldset class="form-group">
+                    <div class="row align-items-center"  >
+                        <label  class="col-form-label col-sm-2 pt-0 ">Dedicated Designer?</label>
+                        <div class="col-sm-10 pl-5">
+                            <div class="form-check form-check-inline mr-5 "  >
+                                <input class="form-check-input" type="radio" name="DedicatedDesigner" id="inlineRadio1" value="yes" >
+                                <label class="form-check-label" for="inlineRadio1">Yes</label>
+                            </div>
+                            <div class="form-check form-check-inline mr-5">
+                                <input class="form-check-input" type="radio" name="DedicatedDesigner" id="inlineRadio2" value="no">
+                                <label class="form-check-label" for="inlineRadio2">No</label>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                
+<!--                SERVICES-->
+                
+                <div class="form-group row">
+                    <div class="col-sm-2">Current Services</div>                 
+                </div>
+                
+                  <div class="form-group row ">
+                    <div class="col-sm-2"></div>  
+                        <div class="col-sm-10 pl-5">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="option1" name="CurrentService" >
+                                <label class="form-check-label">
+                               Streaming Video 
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline pl-4">
+                                <input class="form-check-input" type="checkbox" value="option2" name="CurrentService" >
+                                <label class="form-check-label" >
+                                User Forums
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline pl-4">
+                                <input class="form-check-input" type="checkbox" value="option3" name="CurrentService" >
+                                <label class="form-check-label" >
+                                Dedicated App
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline pl-4">
+                                <input class="form-check-input" type="checkbox" value="option4" name="CurrentService"  >
+                                <label class="form-check-label" >
+                                In-line advertising
+                                </label>
+                            </div>
+                        </div>
+                </div>  
+                <div class="form-group row ">
+                    <div class="col-sm-2"></div>  
+                        <div class="col-sm-10 pl-5">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="option5" name="CurrentService" >
+                                <label class="form-check-label" >
+                               User-generated Content 
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline pl-4">
+                                <input class="form-check-input" type="checkbox" value="option6" name="CurrentService" >
+                                <label class="form-check-label" >
+                                Auto-generated Content
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline pl-4">
+                                <input class="form-check-input" type="checkbox" value="option7" name="CurrentService" >
+                                <label class="form-check-label">
+                                Ecommerce
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline pl-4">
+                                <input class="form-check-input" type="checkbox" value="option8" name="CurrentService"  >
+                                <label class="form-check-label" >
+                                Subscription Model
+                                </label>
+                            </div>
+                        </div>
+                </div>
+                
+                  
+<!--                SITE TRAFFIC-->
+                
+                <div class="form-group">
+                    <label>Number of Daily Users</label>
+                    <select class="form-control" id="siteTrafficSelect1">
+                        <option>&lt;100</option>
+                        <option>100-1000</option>
+                        <option>&gt;1000</option>
+                    </select>
+                </div>    
+                
+<!--                    EXPECTATIONS-->
+                
+                <div class="form-group">
+                    <label>What are your short-and long-term goals for your site?</label>
+                    <textarea class="form-control" id="expectationsTextarea1" rows="3"></textarea>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary" value="Submit">SUBMIT</button>
+                        <button type="reset" class="btn btn-primary">CLEAR</button>
+                    </div>
+                </div>
+            </form>
+
+        </main>
+
+        <footer class="footer">
+            <p>&copy; Fugu Media 2017</p>
+        </footer>
+
+    </div>
+    <!-- /container -->
+</body>
+
+</html>
